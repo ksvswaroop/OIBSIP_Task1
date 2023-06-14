@@ -17,3 +17,12 @@ PetalLengthCm---->Peatal lenght in cm(float)
 PetalWidthCm---->Petal width in cm(float)
 
 Species----> Types of species of iris flower like setosa,versicolor,verginica(object)
+
+
+Observations:
+
+Using Petals over Sepal for training the data gives a much better accuracy. This was expected as we saw in the heatmap above that the correlation between the Sepal Width and Length was very low whereas the correlation between Petal Width and Length was very high. Thus we have just implemented some of the common Machine Learning. Since the dataset is small with very few features, I didn't cover some concepts as they would be relevant when we have many features.
+
+I have compiled a notebook covering some advanced ML concepts using a larger dataset. Have a look at that tooo.
+
+In above experiment,we have seen different accuracy with respect to different models like Logistic Regression,Decision Tree,Random Forest,XgBoost and KNN Among all of them KNN provide best accuracy for the small dataset.So I will consider KNN as my final model having train and test are 98% and 95%. As I mensioned I also play some hyperparameters for all models.
